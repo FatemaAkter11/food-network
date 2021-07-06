@@ -1,6 +1,7 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    padding: 0;
 }
 /* common css */
 h1{
@@ -17,6 +18,51 @@ p{
     display: flex;
     margin-bottom: 150px;
 } 
+/* navbar start */
+.navbar{
+    background-color: brown;
+    width: 100%;
+    height: 120px;
+    background-color: rgb(0,0,0,0.7);
+    font-family: sans-serif;
+}
+.max-width{
+    width: 100%;
+    margin: auto;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+    margin-bottom: 40px;
+}
+ .text{
+    color: white;
+    font-size: 60px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    padding-right: 200px;
+    padding-left: 30px;
+    text-align: center;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 23px 50px;
+    color: white;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    background-color:#66b3ff;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+/* navbar end */
+
 /* header section start */
 
 .color{
@@ -107,7 +153,7 @@ footer h1{
     text-align: center;
 }
 #size{
-    color: white;
+    color: wheat;
     text-align: center;
     font-size: 15px;
     font-weight: 100;
