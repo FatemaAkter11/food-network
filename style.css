@@ -19,7 +19,7 @@ p{
 } 
 /* header section start */
 
-.skib-color{
+.color{
     color: orange;
 }
 .first-width{
@@ -40,7 +40,7 @@ p{
     font-size: 20px;
 }
 .header{
-    background-image: url(images/top-banner.png);
+    background-image: url(images/header.png);
     background-repeat: no-repeat;
 }
 /* header section end */
@@ -93,6 +93,24 @@ h3{
 }
 .extra-menu p{
    margin-top: -40px;
+}
+/* extra section end */
+
+/* footer start */
+footer{
+    background-color: black;
+    height: 300px;
+    margin-top: -100px;
+}
+footer h1{
+    color: grey;
+    text-align: center;
+}
+#size{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;
 }
 
 
