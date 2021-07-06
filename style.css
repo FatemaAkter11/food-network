@@ -85,10 +85,10 @@ p{
     color: white;
     font-size: 20px;
 }
-.header{
+ .header{
     background-image: url(images/header.png);
     background-repeat: no-repeat;
-}
+} 
 /* header section end */
 
 /* about start */
